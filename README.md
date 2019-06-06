@@ -1,6 +1,6 @@
 # Cellar - generate and validate signed tokens
 
-[![Master Build Status](https://api.travis-ci.com/amxx-bg/cellar.png?branch=master)](https://travis-ci.org/amxx-bg/cellar)
+[![Master Build Status](https://travis-ci.org/amxx-bg/cellar.svg?branch=travis-ci)](https://travis-ci.org/amxx-bg/cellar)
 
 Cellar is a lightweight library for generating and validating signed tokens that can be used for password reset links,
 authentication, CSRF or anything else you may require. It aims to be secure and to have minimum external dependencies.
