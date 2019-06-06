@@ -1,0 +1,55 @@
+{
+  "name":        "amxx-bg/cellar",
+  "description": "Simple CSRF Token Generator & Validator",
+  "keywords":    ["auth", "token", "csrf"],
+  "homepage":    "https://github.com/amxx-bg/cellar",
+  "type":        "library",
+  "license":     "BSD-3-Clause",
+  "authors":     [
+    {
+      "name":     "Stf Kolev",
+      "email":    "inkyzfx@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php":         "^7.2",
+    "ext-openssl": "*",
+    "lib-openssl": "*"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+
+  "suggest": {
+  },
+
+  "support": {
+    "issues": "https://github.com/amxx-bg/cellar/issues",
+    "source": "https://github.com/amxx-bg/cellar"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "AMXXBG\\": "src/AMXXBG"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AMXXBG\\Tests\\": "tests/AMXXBG"
+    }
+  },
+  "bin": [],
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+
+  "config": {
+    "bin-dir":           "bin",
+    "preferred-install": "dist"
+  }
+}
